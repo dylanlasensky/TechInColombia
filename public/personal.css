@@ -1,0 +1,32 @@
+/* My path heading */
+.personal { padding-bottom: 45px; }
+.personal-heading { padding: 48px 0 30px; }
+.personal-heading h1 { font-size: clamp(42px, 7vw, 66px); line-height: 1.05; margin: 14px 0 28px; letter-spacing: -.045em; }
+.section-label { color: var(--blue); font-size: 14px; font-weight: bold; }
+.path-links { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid #d5ddd7; border-radius: 10px; overflow: hidden; }
+.path-links a { display: block; padding: 18px 16px; text-decoration: none; background: var(--yellow); }
+.path-links a:nth-child(2) { background: var(--blue); color: white; }
+.path-links a:nth-child(3) { background: #c92735; color: white; }
+.path-links span { display: block; font-size: 12px; margin-bottom: 8px; }
+.path-links strong { display: block; font-size: 15px; line-height: 1.4; }
+.path-links a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+.path-links a:focus-visible { outline-offset: -4px; }
+.path-links a:nth-child(n+2):focus-visible { outline-color: white; }
+/* Reflection sections */
+.reflection { padding: 30px 0; border-bottom: 1px solid #d5ddd7; scroll-margin-top: 15px; }
+.reflection h2 { font-size: 27px; margin-bottom: 22px; padding-left: 16px; border-left: 4px solid var(--yellow); line-height: 1.25; }
+#work h2 { border-color: var(--blue); }
+#business h2 { border-color: var(--green); }
+#intro { padding-top: 16px; }
+#intro h2 { border: 0; padding-left: 0; }
+.reflection p + p { margin-top: 20px; }
+.reflection a { color: var(--blue); }
+.reflection:last-child { border: 0; }
+@media (max-width: 500px) {
+  .personal-heading { padding-top: 32px; }
+  .path-links { grid-template-columns: 1fr; }
+  .path-links a { padding: 14px 18px; }
+  .path-links span { margin-bottom: 3px; }
+  .reflection h2 { font-size: 25px; }
+}
+@media print { .path-links { display: none; } }
