@@ -38,7 +38,7 @@ The site uses plain HTML, CSS, and JavaScript. All website files are in `public/
 
 ## Deployment
 
-The site is designed for Cloudflare Pages with GitHub integration:
+The site is hosted on Cloudflare Pages with GitHub integration:
 
 - Production branch: `main`
 - Framework preset: None
@@ -46,7 +46,7 @@ The site is designed for Cloudflare Pages with GitHub integration:
 - Build output directory: `public`
 - Custom domain: `techincolombia.com`
 
-Push website changes to `main` to trigger a new deployment once the Cloudflare integration is connected.
+Push website changes to `main` to automatically publish a new deployment on Cloudflare Pages.
 
 ## Sources and media credits
 
