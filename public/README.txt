@@ -77,8 +77,9 @@ En mi idioma homepage. Colnodo and participating communities. Screenshot capture
 https://www.enmiidioma.org/
 
 Reconstrucción
-Reconstrucción gameplay image published by Pathos Audiovisual. Image source. Tap to enlarge.
-https://www.pathosaudiovisual.com/reconstruccion-2/
+Reconstrucción gameplay image originally published by Pathos Audiovisual.
+Original project page (unavailable as of November 24, 2026): https://www.pathosaudiovisual.com/reconstruccion-2/
+Project background: https://www.reincorporacion.gov.co/es/sala-de-prensa/noticias/Paginas/2017/04/videojuego-inspirado-historia-ivan.aspx
 
 En TIC Confío: #PoderDigital
 Page 2 of the 2020 En TIC Confío brochure. MinTIC; archived by Gobernación de Boyacá. Image source. Tap to enlarge.
