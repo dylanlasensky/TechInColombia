@@ -5,7 +5,7 @@ RFLA 300 - Colombian Culture in Motion
 HOW TO OPEN
 1. Unzip the folder.
 2. Double-click index.html to open the website in your browser.
-3. Use the links at the top to move between all five pages.
+3. Use the links at the top to move between all six pages.
 
 No installation is needed. Keep all the files in the same folder.
 The pages and photos work offline. You need an internet connection to
@@ -19,6 +19,8 @@ connections.html - Interdisciplinary connections
 connections.css - Connections diagrams and layout
 personal.html - Personal and professional connections
 personal.css - Personal reflection layout
+reflection.html - Final reflection
+reflection.css - Final reflection layout
 gallery.css - Gallery layout
 styles.css - Colors and page layout
 script.js - Outside links and section scrolling

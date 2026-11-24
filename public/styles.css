@@ -141,7 +141,7 @@ h2 { font-size: 35px; letter-spacing: -.035em; margin-bottom: 25px; }
   nav { flex-wrap: wrap; gap: 10px 20px; }
 }
 
-/* Room for all five pages */
-@media (min-width: 651px) and (max-width: 1050px) {
+/* Room for all page links */
+@media (min-width: 651px) and (max-width: 1150px) {
   .site-header { flex-direction: column; align-items: flex-start; gap: 10px; }
 }

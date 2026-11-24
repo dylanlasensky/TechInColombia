@@ -1,0 +1,22 @@
+/* Page heading */
+.final-reflection { padding-bottom: 45px; }
+.reflection-heading { padding: 48px 0 32px; }
+.section-label { color: var(--blue); font-size: 14px; font-weight: bold; }
+.reflection-heading h1 { font-size: clamp(42px, 7vw, 66px); line-height: 1.05; margin: 14px 0 28px; letter-spacing: -.045em; }
+.reflection-heading::after { content: ""; display: block; width: 100%; height: 6px; border-radius: 3px; background: linear-gradient(to right, var(--yellow) 50%, var(--blue) 50%, var(--blue) 75%, #c92735 75%); }
+
+/* Reflection sections */
+.reflection-section { padding: 28px 0; border-bottom: 1px solid #d5ddd7; scroll-margin-top: 15px; }
+.reflection-section h2 { font-size: 27px; line-height: 1.25; margin-bottom: 22px; }
+.reflection-section p + p { margin-top: 20px; }
+.reflection-section a { color: var(--blue); }
+.reflection-section:last-child { border-bottom: 0; }
+@media (max-width: 500px) {
+  .reflection-heading { padding-top: 32px; padding-bottom: 12px; }
+  .reflection-section h2 { font-size: 25px; }
+}
+@media print {
+  .reflection-heading { padding-top: 0; }
+  .reflection-section h2 { break-after: avoid; }
+  .reflection-section p { orphans: 3; widows: 3; }
+}

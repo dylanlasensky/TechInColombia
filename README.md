@@ -20,6 +20,8 @@ The portfolio connects the research to my Computer Science major and my work as 
 - **Connections:** How the topic relates to education, economics, and political science.
 - **My path:** A personal and professional reflection connecting the topic to my studies and career plans.
 
+- **Reflection:** What I learned about Colombia, the research and artifacts that changed my thinking, and questions I want to explore next.
+
 ## Run locally
 
 Open `public/index.html` in a browser. No installation is required. Keep the files and assets together.
