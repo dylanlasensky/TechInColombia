@@ -1,0 +1,125 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #ffdd36;
+  color: #153d2d;
+  font: 17px/1.52 "Helvetica Neue", Arial, sans-serif;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: min(100%, 1660px);
+  min-height: 63px;
+  margin: auto;
+  padding-inline: clamp(22px, 4.3vw, 76px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  font-size: 17px;
+  font-weight: 750;
+  letter-spacing: -.015em;
+  text-decoration: none;
+}
+
+.flag {
+  flex: none;
+  width: 22px;
+  height: 15px;
+  background: linear-gradient(to bottom, #ffdd36 50%, #194ba0 50% 75%, #bc3437 75%);
+  outline: 1px solid #8b752f;
+}
+
+.menu-wide {
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 2vw, 33px);
+}
+
+.site-header nav a {
+  padding: 7px 0;
+  border-bottom: 2px solid transparent;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.site-header nav a:is(:hover, [aria-current="page"]) {
+  border-color: currentColor;
+}
+
+.quick-menu {
+  display: none;
+  position: relative;
+}
+
+.quick-menu summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 650;
+  padding: 9px 1px;
+}
+
+.quick-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.quick-menu summary::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 3px 3px 8px;
+  border-right: 1.5px solid;
+  border-bottom: 1.5px solid;
+  transform: rotate(45deg);
+}
+
+.quick-menu[open] summary::after {
+  margin-bottom: 0;
+  transform: rotate(225deg);
+}
+
+.quick-menu nav {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  display: grid;
+  min-width: 198px;
+  padding: 8px 16px 12px;
+  background: #faf7ed;
+  border: 1px solid #153d2d;
+  box-shadow: 0 9px 22px #16322220;
+}
+
+.quick-menu nav a {
+  padding: 9px 2px;
+}
+
+.site-header :is(a, summary):focus-visible {
+  outline: 3px solid #1648a6;
+  outline-offset: 4px;
+}
+
+@media (max-width: 850px) {
+  .menu-wide { display: none; }
+  .quick-menu { display: block; }
+}
+
+@media (max-width: 640px) {
+  .header-row { min-height: 54px; }
+  .brand { font-size: 16px; }
+  .flag { width: 19px; height: 13px; }
+}
+
+@media print {
+  .site-header { display: none; }
+}

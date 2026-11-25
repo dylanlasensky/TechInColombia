@@ -8,20 +8,34 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="personal.css">
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="navigation.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <!-- Navigation -->
   <header class="site-header">
-    <a class="site-name" href="index.html">Tech in Colombia<span class="flag" aria-hidden="true"></span></a>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="bibliography.html">Bibliography</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="connections.html">Connections</a>
-      <a href="personal.html" aria-current="page">My path</a>
-      <a href="reflection.html">Reflection</a>
-    </nav>
+    <div class="header-row">
+      <a class="brand" href="index.html" aria-label="Dylan Lasensky, home"><span class="flag" aria-hidden="true"></span>Dylan Lasensky</a>
+      <nav class="menu-wide" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="bibliography.html">Bibliography</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="connections.html">Connections</a>
+        <a href="personal.html" aria-current="page">My path</a>
+        <a href="reflection.html">Reflection</a>
+      </nav>
+      <details class="quick-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="index.html">Home</a>
+          <a href="bibliography.html">Bibliography</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="connections.html">Connections</a>
+          <a href="personal.html" aria-current="page">My path</a>
+          <a href="reflection.html">Reflection</a>
+        </nav>
+      </details>
+    </div>
   </header>
   <main id="main" class="reading-width personal">
     <header class="personal-heading">
@@ -36,7 +50,7 @@
     <!-- My reflection -->
     <section class="reflection" id="intro">
       <h2>Why this topic fits me</h2>
-      <p>Technology in Colombia connects directly to what I study and where I want to go. I’m a Computer Science major and currently work as a cybersecurity analyst. After graduation, I’m going to Crummer for a STEM designated MBA. I want to move into the business side of tech while keeping my technical background.</p>
+      <p>Technology in Colombia connects directly to what I study and where I want to go. I’m a Computer Science major and currently work as a cybersecurity analyst. After graduation, I’m going to Crummer for an MBA with a STEM designation. I want to move into the business side of tech while keeping my technical background.</p>
       <p>That combination is why this project matters to me. I’m interested in how technology works. I also want to understand why people use it and how organizations decide what is worth investing in. Colombia gives me specific examples of those questions. It pushes me to think beyond whether a product has impressive features.</p>
     </section>
     <section class="reflection" id="major">
@@ -53,7 +67,7 @@
       <h2>What I want to bring to business</h2>
       <p>At Crummer, I want to build on my technical background and learn more about making business decisions. The <a href="gallery.html#nequi">Nequi advertisement in my gallery</a> connects to that goal. It presents digital payments as part of everyday work. It makes me think about how a company explains the value of a product to a small business owner.</p>
       <p>The <a href="bibliography.html#business">study of smaller Colombian businesses</a> adds an important question about readiness. Can a business actually use the technology it adopts? I would want to consider training and ongoing support alongside cost.</p>
-      <p>Studying Colombia has broadened what I count as progress. New tools matter but access and trust matter too. The differences between regions also matter. I cannot assume a product that works in a major city will work just as well in a smaller community. In a future business role I would ask potential users what gets in their way. Their answers should shape the plan from the start. My takeaway is to listen before proposing a solution. I want to help make technology useful for the people expected to rely on it.</p>
+      <p>Studying Colombia has broadened what I count as progress. New tools matter, but access and trust matter too. The differences between regions also matter. I cannot assume a product that works in a major city will work just as well in a smaller community. In a future business role, I would ask potential users what gets in their way. Their answers should shape the plan from the start. My takeaway is to listen before proposing a solution. I want to help make technology useful for the people expected to rely on it.</p>
     </section>
   </main>
   <footer class="site-footer">

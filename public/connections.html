@@ -8,26 +8,40 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="connections.css">
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="navigation.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <!-- Navigation -->
   <header class="site-header">
-    <a class="site-name" href="index.html">Tech in Colombia<span class="flag" aria-hidden="true"></span></a>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="bibliography.html">Bibliography</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="connections.html" aria-current="page">Connections</a>
-      <a href="personal.html">My path</a>
-      <a href="reflection.html">Reflection</a>
-    </nav>
+    <div class="header-row">
+      <a class="brand" href="index.html" aria-label="Dylan Lasensky, home"><span class="flag" aria-hidden="true"></span>Dylan Lasensky</a>
+      <nav class="menu-wide" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="bibliography.html">Bibliography</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="connections.html" aria-current="page">Connections</a>
+        <a href="personal.html">My path</a>
+        <a href="reflection.html">Reflection</a>
+      </nav>
+      <details class="quick-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="index.html">Home</a>
+          <a href="bibliography.html">Bibliography</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="connections.html" aria-current="page">Connections</a>
+          <a href="personal.html">My path</a>
+          <a href="reflection.html">Reflection</a>
+        </nav>
+      </details>
+    </div>
   </header>
   <main id="main" class="reading-width connections">
     <header class="research-heading">
       <p class="eyebrow">Three ways to look at tech</p>
       <h1>Interdisciplinary connections</h1>
-      <p class="explanation">Technology in Colombia connects to more than Computer Science. It affects how people learn and what they can afford. It also depends on decisions made by public institutions. Together they show what makes technology useful in everyday life.</p>
+      <p class="explanation">Technology in Colombia connects to more than Computer Science. It affects how people learn and what they can afford. It also depends on decisions made by public institutions. Together, they show what makes technology useful in everyday life.</p>
     </header>
     <section class="connection" id="education" aria-labelledby="education-title">
       <p class="eyebrow">Education</p>
@@ -78,7 +92,7 @@
       <div class="explanation">
         <p>Political science looks at public decisions and how institutions use authority. Cybersecurity connects to this because protecting people online takes more than good software. Someone has to set responsibilities and make sure organizations work together.</p>
         <p>Díaz Acevedo and Cremades Guisado reviewed Colombia’s cybersecurity policies in 2024. They found that technical progress had moved faster than organizational coordination. Their review helps explain why buying security tools cannot solve every problem. Institutions also need a clear way to share information and respond.</p>
-        <p>The map shows why security is a shared responsibility. Public rules need action from organizations and people. This relates to my own work in cybersecurity. Schools and online payment services need that coordination too. For Colombia’s future, I would ask who is responsible for protecting a service and how the public can hold that institution accountable. A policy needs follow through to matter.</p>
+        <p>The map shows why security is a shared responsibility. Public rules need action from organizations and people. This relates to my own work in cybersecurity. Schools and online payment services need that coordination too. For Colombia’s future, I would ask who is responsible for protecting a service and how the public can hold that institution accountable. A policy needs people to follow through to matter.</p>
       </div>
       <p class="connection-source">Source: <a href="bibliography.html#cybersecurity">Díaz Acevedo &amp; Cremades Guisado (2024)</a></p>
     </section>

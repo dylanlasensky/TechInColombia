@@ -8,21 +8,35 @@
   <link rel="stylesheet" href="/styles.css">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <script src="/script.js" defer></script>
+  <link rel="stylesheet" href="/navigation.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- Navigation -->
   <header class="site-header">
-    <a class="site-name" href="/index.html">Tech in Colombia<span class="flag" aria-hidden="true"></span></a>
-    <nav aria-label="Main navigation">
-      <a href="/index.html">Home</a>
-      <a href="/bibliography.html">Bibliography</a>
-      <a href="/gallery.html">Gallery</a>
-      <a href="/connections.html">Connections</a>
-      <a href="/personal.html">My path</a>
-      <a href="/reflection.html">Reflection</a>
-    </nav>
+    <div class="header-row">
+      <a class="brand" href="/index.html" aria-label="Dylan Lasensky, home"><span class="flag" aria-hidden="true"></span>Dylan Lasensky</a>
+      <nav class="menu-wide" aria-label="Main navigation">
+        <a href="/index.html">Home</a>
+        <a href="/bibliography.html">Bibliography</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/connections.html">Connections</a>
+        <a href="/personal.html">My path</a>
+        <a href="/reflection.html">Reflection</a>
+      </nav>
+      <details class="quick-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="/index.html">Home</a>
+          <a href="/bibliography.html">Bibliography</a>
+          <a href="/gallery.html">Gallery</a>
+          <a href="/connections.html">Connections</a>
+          <a href="/personal.html">My path</a>
+          <a href="/reflection.html">Reflection</a>
+        </nav>
+      </details>
+    </div>
   </header>
 
   <main id="main" class="reading-width about">

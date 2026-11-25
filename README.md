@@ -8,9 +8,9 @@ Website: [techincolombia.com](https://techincolombia.com)
 
 This project looks at how technology is changing everyday life in Colombia and what it could mean for the country’s future. It explores education, internet access, digital payments, small businesses, cybersecurity, and cultural representation.
 
-The guiding question is: **How is technology changing everyday life in Colombia? What could it mean for the country’s future?**
+Two questions guide the project. **How is technology changing everyday life in Colombia? What could it mean for the country’s future?**
 
-The portfolio connects the research to my Computer Science major and my work as a cybersecurity analyst. It also reflects on my plans to attend Crummer for a STEM designated MBA and move into the business side of technology.
+The portfolio connects the research to my Computer Science major and my work as a cybersecurity analyst. It also reflects on my plans to attend Crummer for an MBA with a STEM designation and move into the business side of technology.
 
 ## Portfolio pages
 
@@ -19,7 +19,6 @@ The portfolio connects the research to my Computer Science major and my work as 
 - **Gallery:** Ten cultural artifacts with images, analysis, credits, and connections to the research.
 - **Connections:** How the topic relates to education, economics, and political science.
 - **My path:** A personal and professional reflection connecting the topic to my studies and career plans.
-
 - **Reflection:** What I learned about Colombia, the research and artifacts that changed my thinking, and questions I want to explore next.
 
 ## Run locally
@@ -54,4 +53,4 @@ Push website changes to `main` to automatically publish a new deployment on Clou
 
 Research citations are included on the bibliography page. Artifact credits and source links appear beside each image. Additional image credits are listed in `public/README.txt`.
 
-This is an educational class project. Third party photographs, archival material, advertisements, and screenshots remain subject to their original rights and licenses. Their inclusion here does not grant permission to reuse them elsewhere. The two landscape photographs retain their stated Creative Commons licenses.
+This is an educational class project. Photographs, archival material, advertisements, and screenshots from third parties remain subject to their original rights and licenses. Their inclusion here does not grant permission to reuse them elsewhere. The two landscape photographs retain their stated Creative Commons licenses.

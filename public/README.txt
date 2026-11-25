@@ -13,6 +13,9 @@ open the research links or watch the documentary on YouTube.
 
 FILES
 index.html - Welcome page
+home.css - Homepage layout
+home.js - Cocora Valley scroll transition
+navigation.css - Shared navigation
 bibliography.html - Ten sources with citations and annotations
 gallery.html - Ten cultural artifacts with sources and explanations
 connections.html - Interdisciplinary connections
@@ -23,7 +26,7 @@ reflection.html - Final reflection
 reflection.css - Final reflection layout
 gallery.css - Gallery layout
 styles.css - Colors and page layout
-script.js - Outside links and section scrolling
+script.js - External links, mobile menu and section scrolling
 assets - Photos and the small browser icon
 
 PHOTO CREDITS
@@ -78,7 +81,7 @@ https://www.enmiidioma.org/
 
 Reconstrucción
 Reconstrucción gameplay image originally published by Pathos Audiovisual.
-Original project page (unavailable as of November 24, 2026): https://www.pathosaudiovisual.com/reconstruccion-2/
+The original project page was unavailable as of November 24, 2026.
 Project background: https://www.reincorporacion.gov.co/es/sala-de-prensa/noticias/Paginas/2017/04/videojuego-inspirado-historia-ivan.aspx
 
 En TIC Confío: #PoderDigital

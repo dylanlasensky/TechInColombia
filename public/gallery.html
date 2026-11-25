@@ -9,19 +9,33 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="gallery.css">
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="navigation.css">
 </head>
 <body class="gallery-page">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="site-name" href="index.html">Tech in Colombia<span class="flag" aria-hidden="true"></span></a>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="bibliography.html">Bibliography</a>
-      <a href="gallery.html" aria-current="page">Gallery</a>
-      <a href="connections.html">Connections</a>
-      <a href="personal.html">My path</a>
-      <a href="reflection.html">Reflection</a>
-    </nav>
+    <div class="header-row">
+      <a class="brand" href="index.html" aria-label="Dylan Lasensky, home"><span class="flag" aria-hidden="true"></span>Dylan Lasensky</a>
+      <nav class="menu-wide" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="bibliography.html">Bibliography</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
+        <a href="connections.html">Connections</a>
+        <a href="personal.html">My path</a>
+        <a href="reflection.html">Reflection</a>
+      </nav>
+      <details class="quick-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="index.html">Home</a>
+          <a href="bibliography.html">Bibliography</a>
+          <a href="gallery.html" aria-current="page">Gallery</a>
+          <a href="connections.html">Connections</a>
+          <a href="personal.html">My path</a>
+          <a href="reflection.html">Reflection</a>
+        </nav>
+      </details>
+    </div>
   </header>
   <main id="main" class="reading-width">
     <header class="gallery-heading">
@@ -135,7 +149,7 @@
       </header>
       <dl class="artifact-details">
         <dt>Creator</dt><dd>Jorge Alí Triana; RTVC Sistema de Medios Públicos. Archive reference ND-702331, clip 9.</dd>
-        <dt>Date</dt><dd>2014 documentary about the June 13, 1954 launch. Archive article published June 13, 2025.</dd>
+        <dt>Date</dt><dd>2014 documentary about the launch on June 13, 1954. Archive article published June 13, 2025.</dd>
         <dt>Course themes</dt><dd>Identity · Representation</dd>
         <dt>Technology connection</dt><dd>Broadcasting and the way Colombians share national events.</dd>
       </dl>
@@ -147,7 +161,7 @@
         <a href="https://www.senalmemoria.co/primera-emision-de-television-historia">Watch the excerpt and read the archive article <span aria-hidden="true">↗</span></a>
       </div>
       <div class="artifact-story">
-        <p>This documentary excerpt looks back at Colombia’s first television broadcast. The opening program included a presidential address, news, music and drama. Television brought these different forms into one shared screen. It was a new way to experience politics and performance without being at the event in person.</p>
+        <p>This documentary excerpt looks back at Colombia’s first television broadcast. The opening program included a presidential address, news, music and drama. Television brought these different forms onto one shared screen. It was a new way to experience politics and performance without being at the event in person.</p>
         <p>I picked it because technology changes more than how quickly information moves. It also changes what people see together. A television schedule can help create a shared idea of national life. Still, not everyone had a receiver. The institutions behind the broadcast also chose which people and stories appeared. A shared screen does not mean that everyone had an equal voice.</p>
         <p>This connects to identity and representation. Television helped present an image of Colombia, but that image came from specific decisions in a political setting. I see a connection to streaming and social platforms today. More ways to publish can create opportunities, but visibility still depends on access and control. For my project, the important question is who gets to tell the story when a new medium arrives.</p>
         <p>This offers historical context for the World Bank report’s discussion of digital platforms and participation, rather than evidence about today’s internet.</p>
@@ -322,7 +336,7 @@
   </main>
   <footer class="site-footer">
     <div class="footer-top"><p>Dylan Lasensky / Colombian Culture in Motion / Fall 2026</p><a href="#main">Back to top ↑</a></div>
-    <p class="photo-credits">Artifact links open the original collections, films and project pages. Internet is needed for those links. All ten artifact images are available offline.</p>
+    <p class="photo-credits">Artifact links open the original collections, films and project pages. Internet access is needed for those links. All ten artifact images are available offline.</p>
   </footer>
 </body>
 </html>
